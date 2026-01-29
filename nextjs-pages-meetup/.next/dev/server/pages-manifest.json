@@ -1,0 +1,9 @@
+{
+  "/": "pages/index.js",
+  "/[meetupId]": "pages/[meetupId].js",
+  "/_app": "pages/_app.js",
+  "/_document": "pages/_document.js",
+  "/_error": "pages/_error.js",
+  "/api/new-meetup": "pages/api/new-meetup.js",
+  "/new-meetup": "pages/new-meetup.js"
+}

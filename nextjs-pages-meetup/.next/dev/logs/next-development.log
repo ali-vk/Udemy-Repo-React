@@ -1,0 +1,1410 @@
+[00:00:19.371] Server  LOG     ✓ Ready in 14.9s
+[00:00:22.445] Server  LOG     ○ Compiling /[meetupId] ...
+[00:01:13.882] Server  LOG     ○ Compiling /api/new-meetup ...
+[00:01:20.356] Server  ERROR   ⨯ Error: querySrv ENOTFOUND _mongodb._tcp.5678
+[00:10:31.481] Server  ERROR   ⨯ Error: querySrv ENOTFOUND _mongodb._tcp.5678
+[00:17:24.823] Browser LOG     {"message":"meetup inserted"}
+[00:19:44.375] Server  LOG     ✓ Compiled in 101ms
+[00:20:12.523] Browser LOG     {"message":"meetup inserted"}
+[00:24:42.022] Server  LOG     ✓ Compiled in 83ms
+[00:24:45.064] Server  LOG     ✓ Compiled in 374ms
+[00:24:49.575] Server  LOG     ✓ Compiled in 146ms
+[00:24:53.727] Server  LOG     ✓ Compiled in 88ms
+[00:26:16.558] Server  LOG     ✓ Compiled in 86ms
+[00:26:39.540] Server  LOG     ✓ Compiled in 135ms
+[00:26:45.136] Server  LOG     ✓ Compiled in 1117ms
+[00:26:46.099] Browser ERROR   ./pages/index.js:47:9
+Parsing ecmascript source code failed
+  45 |   const meetupsCollection = db.collection("meetups");
+  46 |
+> 47 |   const meetupsCollection.find()
+     |         ^^^^^^^^^^^^^^^^^
+  48 |
+  49 |   return {
+  50 |     props: {
+
+'const' declarations must be initialized
+[00:26:46.099] Browser ERROR   ./pages/index.js:47:26
+Parsing ecmascript source code failed
+  45 |   const meetupsCollection = db.collection("meetups");
+  46 |
+> 47 |   const meetupsCollection.find()
+     |                          ^
+  48 |
+  49 |   return {
+  50 |     props: {
+
+Expected a semicolon
+[00:26:52.716] Server  LOG     ✓ Compiled in 126ms
+[00:27:01.979] Server  LOG     ✓ Compiled in 55ms
+[00:27:10.907] Server  LOG     ✓ Compiled in 46ms
+[00:27:11.948] Server  LOG     ✓ Compiled in 26ms
+[00:27:27.833] Server  LOG     ✓ Compiled in 73ms
+[00:27:31.085] Server  LOG     ✓ Compiled in 14ms
+[00:28:14.129] Server  LOG     ✓ Compiled in 12ms
+[00:28:19.348] Server  LOG     ✓ Compiled in 110ms
+[00:28:19.976] Browser ERROR   ./pages/index.js:53:37
+Parsing ecmascript source code failed
+  51 |   return {
+  52 |     props: {
+> 53 |       meetups: meetups.map(meetup =>)
+     |                                     ^
+  54 |     },
+  55 |     revalidate: 1,
+  56 |   };
+
+Expression expected
+[00:28:20.869] Browser ERROR   ./pages/index.js:53:38
+Parsing ecmascript source code failed
+  51 |   return {
+  52 |     props: {
+> 53 |       meetups: meetups.map(meetup => )
+     |                                      ^
+  54 |     },
+  55 |     revalidate: 1,
+  56 |   };
+
+Expression expected
+[00:28:26.329] Server  LOG     ✓ Compiled in 63ms
+[00:28:26.374] Browser ERROR   ./pages/index.js:53:38
+Parsing ecmascript source code failed
+  51 |   return {
+  52 |     props: {
+> 53 |       meetups: meetups.map(meetup => ())
+     |                                      ^^
+  54 |     },
+  55 |     revalidate: 1,
+  56 |   };
+
+Parenthesized expression cannot be empty
+[00:28:27.963] Server  LOG     ✓ Compiled in 142ms
+[00:28:33.974] Server  LOG     ✓ Compiled in 139ms
+[00:28:36.864] Server  LOG     ✓ Compiled in 204ms
+[00:28:36.882] Browser ERROR   ./pages/index.js:55:7
+Parsing ecmascript source code failed
+  53 |       meetups: meetups.map(meetup => ({
+  54 |         title: 
+> 55 |       }))
+     |       ^
+  56 |     },
+  57 |     revalidate: 1,
+  58 |   };
+
+Expression expected
+[00:28:44.632] Server  LOG     ✓ Compiled in 15ms
+[00:28:45.250] Browser ERROR   ./pages/index.js:55:7
+Parsing ecmascript source code failed
+  53 |       meetups: meetups.map(meetup => ({
+  54 |         title: meetup.
+> 55 |       }))
+     |       ^
+  56 |     },
+  57 |     revalidate: 1,
+  58 |   };
+
+Expected ident
+[00:28:48.021] Server  LOG     ✓ Compiled in 21ms
+[00:28:59.713] Server  LOG     ✓ Compiled in 9ms
+[00:29:09.114] Server  LOG     ✓ Compiled in 10ms
+[00:29:12.083] Server  LOG     ✓ Compiled in 10ms
+[00:29:13.726] Server  LOG     ✓ Compiled in 16ms
+[00:29:19.856] Server  LOG     ✓ Compiled in 12ms
+[00:29:44.743] Server  LOG     ✓ Compiled in 111ms
+[00:29:45.257] Browser ERROR   ./pages/index.js:58:7
+Parsing ecmascript source code failed
+  56 |         address: meetup.address,
+  57 |         id: 
+> 58 |       }))
+     |       ^
+  59 |     },
+  60 |     revalidate: 1,
+  61 |   };
+
+Expression expected
+[00:29:54.859] Server  LOG     ✓ Compiled in 25ms
+[00:29:56.492] Server  LOG     ✓ Compiled in 11ms
+[00:29:59.698] Server  LOG     ✓ Compiled in 32ms
+[00:30:35.402] Server  LOG     ✓ Compiled in 65ms
+[00:37:09.781] Server  LOG     ✓ Compiled in 184ms
+[00:37:19.677] Server  LOG     ✓ Compiled in 613ms
+[00:37:26.111] Server  LOG     ✓ Compiled in 10ms
+[00:37:27.666] Server  LOG     ✓ Compiled in 12ms
+[00:37:30.744] Server  LOG     ✓ Compiled in 61ms
+[00:37:33.462] Server  LOG     ✓ Compiled in 25ms
+[00:38:02.048] Server  LOG     ✓ Compiled in 54ms
+[00:38:33.083] Server  LOG     ✓ Compiled in 20ms
+[00:38:42.223] Server  LOG     ✓ Compiled in 9ms
+[00:38:43.806] Server  LOG     ✓ Compiled in 10ms
+[00:39:40.345] Server  LOG     ✓ Compiled in 18ms
+[00:43:18.247] Browser LOG     Refreshing page data due to server-side change
+[00:43:32.021] Browser LOG     Refreshing page data due to server-side change
+[00:43:33.298] Server  LOG     ✓ Compiled in 117ms
+[00:43:34.720] Server  ERROR   ⨯ ReferenceError: _ is not defined
+[00:43:35.858] Server  ERROR   ⨯ ReferenceError: _ is not defined
+[00:43:36.270] Server  LOG     ✓ Compiled in 0ms
+[00:43:36.273] Browser ERROR   ./pages/[meetupId]/index.js:45:53
+Parsing ecmascript source code failed
+  43 |   const meetupsCollection = db.collection("meetups");
+  44 |
+> 45 |   const meetups = await meetupsCollection.find({_id:}, { _id: 1 }).toArray();
+     |                                                     ^
+  46 |
+  47 |   client.close();
+  48 |
+
+Expression expected
+[00:43:36.930] Browser ERROR   ./pages/[meetupId]/index.js:45:53
+Parsing ecmascript source code failed
+  43 |   const meetupsCollection = db.collection("meetups");
+  44 |
+> 45 |   const meetups = await meetupsCollection.find({_id:}, { _id: 1 }).toArray();
+     |                                                     ^
+  46 |
+  47 |   client.close();
+  48 |
+
+Expression expected
+[00:43:37.355] Browser ERROR   ./pages/[meetupId]/index.js:45:53
+Parsing ecmascript source code failed
+  43 |   const meetupsCollection = db.collection("meetups");
+  44 |
+> 45 |   const meetups = await meetupsCollection.find({_id:}, { _id: 1 }).toArray();
+     |                                                     ^
+  46 |
+  47 |   client.close();
+  48 |
+
+Expression expected
+[00:43:38.517] Browser ERROR   ./pages/[meetupId]/index.js:45:53
+Parsing ecmascript source code failed
+  43 |   const meetupsCollection = db.collection("meetups");
+  44 |
+> 45 |   const meetups = await meetupsCollection.find({_id:}, { _id: 1 }).toArray();
+     |                                                     ^
+  46 |
+  47 |   client.close();
+  48 |
+
+Expression expected
+[00:43:40.101] Browser ERROR   ./pages/[meetupId]/index.js:45:53
+Parsing ecmascript source code failed
+  43 |   const meetupsCollection = db.collection("meetups");
+  44 |
+> 45 |   const meetups = await meetupsCollection.find({_id:}, { _id: 1 }).toArray();
+     |                                                     ^
+  46 |
+  47 |   client.close();
+  48 |
+
+Expression expected
+[00:43:40.101] Browser ERROR   ./pages/[meetupId]/index.js:45:53
+Parsing ecmascript source code failed
+  43 |   const meetupsCollection = db.collection("meetups");
+  44 |
+> 45 |   const meetups = await meetupsCollection.find({_id:}, { _id: 1 }).toArray();
+     |                                                     ^
+  46 |
+  47 |   client.close();
+  48 |
+
+Expression expected
+[00:43:40.805] Server  ERROR   ⨯ Failed to generate static paths for /[meetupId]:
+[00:43:41.150] Server  ERROR   Error: Could not parse module '[project]/pages/[meetupId]/index.js'
+
+Expression expected
+[00:43:44.012] Browser ERROR   uncaughtError: Error: ./pages/[meetupId]/index.js:45:53
+Parsing ecmascript source code failed
+  43 |   const meetupsCollection = db.collection("meetups");
+  44 |
+> 45 |   const meetups = await meetupsCollection.find({_id:}, { _id: 1 }).toArray();
+     |                                                     ^
+  46 |
+  47 |   client.close();
+  48 |
+
+Expression expected
+
+
+[00:43:44.012] Browser ERROR   ./pages/[meetupId]/index.js:45:53
+Parsing ecmascript source code failed
+  43 |   const meetupsCollection = db.collection("meetups");
+  44 |
+> 45 |   const meetups = await meetupsCollection.find({_id:}, { _id: 1 }).toArray();
+     |                                                     ^
+  46 |
+  47 |   client.close();
+  48 |
+
+Expression expected
+[00:43:44.766] Browser ERROR   ./pages/[meetupId]/index.js:45:53
+Parsing ecmascript source code failed
+  43 |   const meetupsCollection = db.collection("meetups");
+  44 |
+> 45 |   const meetups = await meetupsCollection.find({_id:}, { _id: 1 }).toArray();
+     |                                                     ^
+  46 |
+  47 |   client.close();
+  48 |
+
+Expression expected
+[00:43:48.535] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:43:48.662] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:43:48.988] Server  LOG     ✓ Compiled in 470ms
+[00:43:54.760] Server  LOG     ✓ Compiled in 304ms
+[00:44:00.254] Server  ERROR   ⨯ TypeError: meetupsCollection.findO is not a function
+[00:44:00.540] Server  ERROR   ⨯ TypeError: meetupsCollection.findO is not a function
+[00:44:04.111] Browser ERROR   uncaughtError: TypeError: meetupsCollection.findO is not a function
+[00:44:14.305] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:44:14.372] Server  LOG     ✓ Compiled in 9ms
+[00:44:16.304] Server  LOG     ✓ Compiled in 82ms
+[00:44:17.810] Server  LOG     ✓ Compiled in 163ms
+[00:44:18.802] Server  LOG     ✓ Compiled in 11ms
+[00:44:36.022] Browser LOG     Refreshing page data due to server-side change
+[00:44:36.434] Server  LOG     ✓ Compiled in 341ms
+[00:44:36.435] Browser ERROR   ./pages/[meetupId]/index.js:45:57
+Parsing ecmascript source code failed
+  43 |   const meetupsCollection = db.collection("meetups");
+  44 |
+> 45 |   const meetups = await meetupsCollection.findOne({_id: });
+     |                                                         ^
+  46 |
+  47 |   client.close();
+  48 |
+
+Expression expected
+[00:44:37.113] Browser ERROR   ./pages/[meetupId]/index.js:45:57
+Parsing ecmascript source code failed
+  43 |   const meetupsCollection = db.collection("meetups");
+  44 |
+> 45 |   const meetups = await meetupsCollection.findOne({_id: });
+     |                                                         ^
+  46 |
+  47 |   client.close();
+  48 |
+
+Expression expected
+[00:44:37.113] Browser ERROR   ./pages/[meetupId]/index.js:45:57
+Parsing ecmascript source code failed
+  43 |   const meetupsCollection = db.collection("meetups");
+  44 |
+> 45 |   const meetups = await meetupsCollection.findOne({_id: });
+     |                                                         ^
+  46 |
+  47 |   client.close();
+  48 |
+
+Expression expected
+[00:44:37.689] Browser ERROR   ./pages/[meetupId]/index.js:45:57
+Parsing ecmascript source code failed
+  43 |   const meetupsCollection = db.collection("meetups");
+  44 |
+> 45 |   const meetups = await meetupsCollection.findOne({_id: });
+     |                                                         ^
+  46 |
+  47 |   client.close();
+  48 |
+
+Expression expected
+[00:44:37.947] Browser ERROR   ./pages/[meetupId]/index.js:45:57
+Parsing ecmascript source code failed
+  43 |   const meetupsCollection = db.collection("meetups");
+  44 |
+> 45 |   const meetups = await meetupsCollection.findOne({_id: });
+     |                                                         ^
+  46 |
+  47 |   client.close();
+  48 |
+
+Expression expected
+[00:44:38.215] Browser ERROR   ./pages/[meetupId]/index.js:45:57
+Parsing ecmascript source code failed
+  43 |   const meetupsCollection = db.collection("meetups");
+  44 |
+> 45 |   const meetups = await meetupsCollection.findOne({_id: });
+     |                                                         ^
+  46 |
+  47 |   client.close();
+  48 |
+
+Expression expected
+[00:44:38.742] Browser ERROR   ./pages/[meetupId]/index.js:45:57
+Parsing ecmascript source code failed
+  43 |   const meetupsCollection = db.collection("meetups");
+  44 |
+> 45 |   const meetups = await meetupsCollection.findOne({_id: });
+     |                                                         ^
+  46 |
+  47 |   client.close();
+  48 |
+
+Expression expected
+[00:44:38.742] Browser ERROR   ./pages/[meetupId]/index.js:45:57
+Parsing ecmascript source code failed
+  43 |   const meetupsCollection = db.collection("meetups");
+  44 |
+> 45 |   const meetups = await meetupsCollection.findOne({_id: });
+     |                                                         ^
+  46 |
+  47 |   client.close();
+  48 |
+
+Expression expected
+[00:44:38.742] Browser ERROR   ./pages/[meetupId]/index.js:45:57
+Parsing ecmascript source code failed
+  43 |   const meetupsCollection = db.collection("meetups");
+  44 |
+> 45 |   const meetups = await meetupsCollection.findOne({_id: });
+     |                                                         ^
+  46 |
+  47 |   client.close();
+  48 |
+
+Expression expected
+[00:44:39.654] Browser ERROR   ./pages/[meetupId]/index.js:45:57
+Parsing ecmascript source code failed
+  43 |   const meetupsCollection = db.collection("meetups");
+  44 |
+> 45 |   const meetups = await meetupsCollection.findOne({_id: });
+     |                                                         ^
+  46 |
+  47 |   client.close();
+  48 |
+
+Expression expected
+[00:44:42.082] Server  LOG     ✓ Compiled in 259ms
+[00:44:42.095] Browser ERROR   uncaughtError: Error: ./pages/[meetupId]/index.js:45:57
+Parsing ecmascript source code failed
+  43 |   const meetupsCollection = db.collection("meetups");
+  44 |
+> 45 |   const meetups = await meetupsCollection.findOne({_id: });
+     |                                                         ^
+  46 |
+  47 |   client.close();
+  48 |
+
+Expression expected
+
+
+[00:44:45.898] Server  LOG     ✓ Compiled in 369ms
+[00:44:46.169] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:45:22.115] Server  LOG     ✓ Compiled in 15ms
+[00:45:22.320] Browser LOG     Refreshing page data due to server-side change
+[00:45:39.763] Server  LOG     ✓ Compiled in 79ms
+[00:45:39.896] Browser ERROR   ./pages/[meetupId]/index.js:51:21
+Parsing ecmascript source code failed
+  49 |   return {
+  50 |     props: {
+> 51 |       meetupData:   const selectedMeetup = await meetupsCollection.findOne({_id: meetupId});
+     |                     ^^^^^
+  52 |
+  53 |     },
+  54 |   };
+
+Expression expected
+[00:45:41.576] Browser LOG     Refreshing page data due to server-side change
+[00:45:41.633] Server  LOG     ✓ Compiled in 106ms
+[00:45:45.302] Server  LOG     ✓ Compiled in 94ms
+[00:45:45.671] Browser LOG     Refreshing page data due to server-side change
+[00:46:54.340] Server  LOG     ✓ Compiled in 13ms
+[00:47:02.264] Server  LOG     ✓ Compiled in 24ms
+[00:47:02.809] Browser LOG     Refreshing page data due to server-side change
+[00:47:02.809] Browser ERROR   ./pages/[meetupId]/index.js:8:7
+Parsing ecmascript source code failed
+   6 |     <MeetupDetail
+   7 |       image=
+>  8 |       alt="first meetup"
+     |       ^^^
+   9 |       title="A Fisrt Meetup"
+  10 |       address="Some city, 6453, city"
+  11 |       description="The meetup description"
+
+JSX value should be either an expression or a quoted JSX text
+[00:47:02.809] Browser ERROR   ./pages/[meetupId]/index.js:8:7
+Parsing ecmascript source code failed
+   6 |     <MeetupDetail
+   7 |       image=
+>  8 |       alt="first meetup"
+     |       ^^^
+   9 |       title="A Fisrt Meetup"
+  10 |       address="Some city, 6453, city"
+  11 |       description="The meetup description"
+
+JSX value should be either an expression or a quoted JSX text
+[00:47:02.809] Browser ERROR   ./pages/[meetupId]/index.js:8:7
+Parsing ecmascript source code failed
+   6 |     <MeetupDetail
+   7 |       image=
+>  8 |       alt="first meetup"
+     |       ^^^
+   9 |       title="A Fisrt Meetup"
+  10 |       address="Some city, 6453, city"
+  11 |       description="The meetup description"
+
+JSX value should be either an expression or a quoted JSX text
+[00:47:03.761] Browser ERROR   uncaughtError: Error: ./pages/[meetupId]/index.js:8:7
+Parsing ecmascript source code failed
+   6 |     <MeetupDetail
+   7 |       image=
+>  8 |       alt="first meetup"
+     |       ^^^
+   9 |       title="A Fisrt Meetup"
+  10 |       address="Some city, 6453, city"
+  11 |       description="The meetup description"
+
+JSX value should be either an expression or a quoted JSX text
+
+
+[00:47:05.279] Browser ERROR   ./pages/[meetupId]/index.js:8:7
+Parsing ecmascript source code failed
+   6 |     <MeetupDetail
+   7 |       image=
+>  8 |       alt="first meetup"
+     |       ^^^
+   9 |       title="A Fisrt Meetup"
+  10 |       address="Some city, 6453, city"
+  11 |       description="The meetup description"
+
+JSX value should be either an expression or a quoted JSX text
+[00:47:05.279] Browser ERROR   ./pages/[meetupId]/index.js:8:7
+Parsing ecmascript source code failed
+   6 |     <MeetupDetail
+   7 |       image=
+>  8 |       alt="first meetup"
+     |       ^^^
+   9 |       title="A Fisrt Meetup"
+  10 |       address="Some city, 6453, city"
+  11 |       description="The meetup description"
+
+JSX value should be either an expression or a quoted JSX text
+[00:47:06.577] Server  LOG     ✓ Compiled in 23ms
+[00:47:13.067] Server  LOG     ✓ Compiled in 23ms
+[00:47:19.051] Server  LOG     ✓ Compiled in 11ms
+[00:47:26.240] Server  LOG     ✓ Compiled in 209ms
+[00:47:26.527] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:47:32.974] Server  ERROR   ⨯ Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.zd2jezu.mongodb.net
+[00:47:33.356] Server  ERROR   ⨯ Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.zd2jezu.mongodb.net
+[00:47:34.749] Server  ERROR   ⨯ Failed to generate static paths for /[meetupId]:
+[00:47:34.931] Server  ERROR   Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.zd2jezu.mongodb.net
+[00:47:35.985] Server  LOG     ✓ Compiled in 385ms
+[00:47:37.199] Browser ERROR   uncaughtError: Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.zd2jezu.mongodb.net
+[00:47:40.435] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:47:40.745] Server  LOG     ✓ Compiled in 1894ms
+[00:47:41.089] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:47:42.077] Server  LOG     ✓ Compiled in 0ms
+[00:47:49.645] Server  LOG     ✓ Compiled in 228ms
+[00:47:52.028] Server  ERROR   ⨯ Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.zd2jezu.mongodb.net
+[00:47:53.799] Browser ERROR   uncaughtError: Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.zd2jezu.mongodb.net
+[00:48:45.125] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:48:45.164] Server  LOG     ✓ Compiled in 7ms
+[00:48:51.739] Server  ERROR   TypeError: Cannot read properties of null (reading 'image')
+[00:48:51.778] Server  ERROR   ⨯ TypeError: Cannot read properties of null (reading 'image')
+[00:48:51.814] Server  ERROR   ⨯ TypeError: Cannot read properties of null (reading 'image')
+[00:48:54.378] Browser ERROR   uncaughtError: TypeError: Cannot read properties of null (reading 'image')
+[00:50:08.808] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:50:08.865] Server  LOG     ✓ Compiled in 10ms
+[00:50:10.072] Server  ERROR   ⨯ ReferenceError: Obje is not defined
+[00:50:10.414] Server  ERROR   ⨯ ReferenceError: Obje is not defined
+[00:50:10.507] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:50:10.523] Server  LOG     ✓ Compiled in 0ms
+[00:50:11.547] Server  ERROR   ⨯ TypeError: Class constructor ObjectId cannot be invoked without 'new'
+[00:50:11.802] Server  ERROR   ⨯ TypeError: Class constructor ObjectId cannot be invoked without 'new'
+[00:50:13.024] Browser ERROR   uncaughtError: TypeError: Class constructor ObjectId cannot be invoked without 'new'
+[00:51:07.172] Server  ERROR   ⨯ TypeError: Class constructor ObjectId cannot be invoked without 'new'
+[00:51:07.369] Server  ERROR   ⨯ TypeError: Class constructor ObjectId cannot be invoked without 'new'
+[00:51:08.708] Browser ERROR   uncaughtError: TypeError: Class constructor ObjectId cannot be invoked without 'new'
+[00:51:37.395] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:51:37.450] Server  LOG     ✓ Compiled in 12ms
+[00:51:38.842] Server  ERROR   ⨯ Error: Error serializing `.meetupData._id` returned from `getStaticProps` in "/[meetupId]".
+Reason: `object` ("[object Object]") cannot be serialized as JSON. Please only return JSON serializable data types.
+[00:51:39.043] Server  ERROR   ⨯ Error: Error serializing `.meetupData._id` returned from `getStaticProps` in "/[meetupId]".
+Reason: `object` ("[object Object]") cannot be serialized as JSON. Please only return JSON serializable data types.
+[00:51:39.814] Browser ERROR   uncaughtError: Error: Error serializing `.meetupData._id` returned from `getStaticProps` in "/[meetupId]".
+Reason: `object` ("[object Object]") cannot be serialized as JSON. Please only return JSON serializable data types.
+[00:52:13.527] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:52:13.675] Server  LOG     ✓ Compiled in 13ms
+[00:52:14.962] Server  ERROR   ⨯ Error: Error serializing `.meetupData.selectedMeetup._id` returned from `getStaticProps` in "/[meetupId]".
+Reason: `object` ("[object Object]") cannot be serialized as JSON. Please only return JSON serializable data types.
+[00:52:15.229] Server  ERROR   ⨯ Error: Error serializing `.meetupData.selectedMeetup._id` returned from `getStaticProps` in "/[meetupId]".
+Reason: `object` ("[object Object]") cannot be serialized as JSON. Please only return JSON serializable data types.
+[00:52:15.737] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:52:15.905] Server  LOG     ✓ Compiled in 341ms
+[00:52:18.596] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:52:18.714] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:52:18.912] Server  LOG     ✓ Compiled in 327ms
+[00:52:19.684] Browser ERROR   ./pages/[meetupId]/index.js:55:7
+Parsing ecmascript source code failed
+  53 |       meetupData: {
+  54 |         id: 
+> 55 |       },
+     |       ^
+  56 |     },
+  57 |   };
+  58 | }
+
+Expression expected
+[00:52:20.143] Server  ERROR   ⨯ Failed to generate static paths for /[meetupId]:
+[00:52:20.425] Server  ERROR   Error: Could not parse module '[project]/pages/[meetupId]/index.js'
+
+Expression expected
+[00:52:20.466] Server  ERROR   ⨯ Failed to generate static paths for /[meetupId]:
+[00:52:20.628] Server  ERROR   Error: Could not parse module '[project]/pages/[meetupId]/index.js'
+
+Expression expected
+[00:52:21.381] Browser ERROR   ./pages/[meetupId]/index.js:55:7
+Parsing ecmascript source code failed
+  53 |       meetupData: {
+  54 |         id: 
+> 55 |       },
+     |       ^
+  56 |     },
+  57 |   };
+  58 | }
+
+Expression expected
+[00:52:21.381] Browser ERROR   ./pages/[meetupId]/index.js:55:7
+Parsing ecmascript source code failed
+  53 |       meetupData: {
+  54 |         id: 
+> 55 |       },
+     |       ^
+  56 |     },
+  57 |   };
+  58 | }
+
+Expression expected
+[00:52:21.381] Browser ERROR   ./pages/[meetupId]/index.js:55:7
+Parsing ecmascript source code failed
+  53 |       meetupData: {
+  54 |         id: 
+> 55 |       },
+     |       ^
+  56 |     },
+  57 |   };
+  58 | }
+
+Expression expected
+[00:52:23.817] Browser ERROR   uncaughtError: Error: ./pages/[meetupId]/index.js:55:7
+Parsing ecmascript source code failed
+  53 |       meetupData: {
+  54 |         id: 
+> 55 |       },
+     |       ^
+  56 |     },
+  57 |   };
+  58 | }
+
+Expression expected
+
+
+[00:52:23.962] Browser ERROR   ./pages/[meetupId]/index.js:55:7
+Parsing ecmascript source code failed
+  53 |       meetupData: {
+  54 |         id: 
+> 55 |       },
+     |       ^
+  56 |     },
+  57 |   };
+  58 | }
+
+Expression expected
+[00:52:25.251] Browser ERROR   ./pages/[meetupId]/index.js:55:7
+Parsing ecmascript source code failed
+  53 |       meetupData: {
+  54 |         id: 
+> 55 |       },
+     |       ^
+  56 |     },
+  57 |   };
+  58 | }
+
+Expression expected
+[00:52:27.545] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:52:27.571] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:52:27.648] Server  LOG     ✓ Compiled in 21ms
+[00:52:29.623] Server  LOG     ✓ Compiled in 55ms
+[00:52:33.806] Server  ERROR   ⨯ ReferenceError: sele is not defined
+[00:52:34.091] Server  ERROR   ⨯ ReferenceError: sele is not defined
+[00:52:34.114] Server  LOG     ✓ Compiled in 25ms
+[00:52:35.089] Browser ERROR   uncaughtError: ReferenceError: sele is not defined
+[00:52:35.715] Server  LOG     ✓ Compiled in 7ms
+[00:52:38.753] Server  LOG     ✓ Compiled in 148ms
+[00:52:38.916] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:52:43.381] Server  LOG     ✓ Compiled in 647ms
+[00:52:48.036] Browser LOG     Refreshing page data due to server-side change
+[00:52:48.728] Server  LOG     ✓ Compiled in 366ms
+[00:52:48.729] Browser ERROR   ./pages/[meetupId]/index.js:55:9
+Parsing ecmascript source code failed
+  53 |       meetupData: {
+  54 |         id: selectedMeetup._id.toString()
+> 55 |         id: selectedMeetup._id.toString();
+     |         ^^
+  56 |         id: selectedMeetup._id.toString();
+  57 |       },
+  58 |     },
+
+Expected ',', got 'ident'
+[00:52:49.378] Browser ERROR   ./pages/[meetupId]/index.js:55:9
+Parsing ecmascript source code failed
+  53 |       meetupData: {
+  54 |         id: selectedMeetup._id.toString()
+> 55 |         id: selectedMeetup._id.toString();
+     |         ^^
+  56 |         id: selectedMeetup._id.toString();
+  57 |       },
+  58 |     },
+
+Expected ',', got 'ident'
+[00:52:49.557] Browser ERROR   ./pages/[meetupId]/index.js:55:9
+Parsing ecmascript source code failed
+  53 |       meetupData: {
+  54 |         id: selectedMeetup._id.toString()
+> 55 |         id: selectedMeetup._id.toString();
+     |         ^^
+  56 |         id: selectedMeetup._id.toString();
+  57 |       },
+  58 |     },
+
+Expected ',', got 'ident'
+[00:52:50.101] Browser ERROR   ./pages/[meetupId]/index.js:55:9
+Parsing ecmascript source code failed
+  53 |       meetupData: {
+  54 |         id: selectedMeetup._id.toString()
+> 55 |         id: selectedMeetup._id.toString();
+     |         ^^
+  56 |         id: selectedMeetup._id.toString();
+  57 |       },
+  58 |     },
+
+Expected ',', got 'ident'
+[00:52:50.637] Server  ERROR   ⨯ Failed to generate static paths for /[meetupId]:
+[00:52:50.834] Server  ERROR   Error: Could not parse module '[project]/pages/[meetupId]/index.js'
+
+Expected ',', got 'ident'
+[00:52:50.852] Browser ERROR   ./pages/[meetupId]/index.js:55:9
+Parsing ecmascript source code failed
+  53 |       meetupData: {
+  54 |         id: selectedMeetup._id.toString()
+> 55 |         id: selectedMeetup._id.toString()
+     |         ^^
+  56 |         id: selectedMeetup._id.toString();
+  57 |       },
+  58 |     },
+
+Expected ',', got 'ident'
+[00:52:51.223] Browser ERROR   ./pages/[meetupId]/index.js:55:9
+Parsing ecmascript source code failed
+  53 |       meetupData: {
+  54 |         id: selectedMeetup._id.toString()
+> 55 |         id: selectedMeetup._id.toString()
+     |         ^^
+  56 |         id: selectedMeetup._id.toString();
+  57 |       },
+  58 |     },
+
+Expected ',', got 'ident'
+[00:52:51.527] Browser ERROR   ./pages/[meetupId]/index.js:55:9
+Parsing ecmascript source code failed
+  53 |       meetupData: {
+  54 |         id: selectedMeetup._id.toString()
+> 55 |         id: selectedMeetup._id.toString()
+     |         ^^
+  56 |         id: selectedMeetup._id.toString();
+  57 |       },
+  58 |     },
+
+Expected ',', got 'ident'
+[00:52:51.527] Browser ERROR   ./pages/[meetupId]/index.js:55:9
+Parsing ecmascript source code failed
+  53 |       meetupData: {
+  54 |         id: selectedMeetup._id.toString()
+> 55 |         id: selectedMeetup._id.toString()
+     |         ^^
+  56 |         id: selectedMeetup._id.toString();
+  57 |       },
+  58 |     },
+
+Expected ',', got 'ident'
+[00:52:55.211] Browser ERROR   uncaughtError: Error: ./pages/[meetupId]/index.js:55:9
+Parsing ecmascript source code failed
+  53 |       meetupData: {
+  54 |         id: selectedMeetup._id.toString()
+> 55 |         id: selectedMeetup._id.toString()
+     |         ^^
+  56 |         id: selectedMeetup._id.toString();
+  57 |       },
+  58 |     },
+
+Expected ',', got 'ident'
+
+
+[00:52:55.211] Browser ERROR   ./pages/[meetupId]/index.js:55:9
+Parsing ecmascript source code failed
+  53 |       meetupData: {
+  54 |         id: selectedMeetup._id.toString()
+> 55 |         id: selectedMeetup._id.toString()
+     |         ^^
+  56 |         id: selectedMeetup._id.toString();
+  57 |       },
+  58 |     },
+
+Expected ',', got 'ident'
+[00:52:56.868] Browser ERROR   ./pages/[meetupId]/index.js:55:9
+Parsing ecmascript source code failed
+  53 |       meetupData: {
+  54 |         id: selectedMeetup._id.toString()
+> 55 |         id: selectedMeetup._id.toString()
+     |         ^^
+  56 |         id: selectedMeetup._id.toString();
+  57 |       },
+  58 |     },
+
+Expected ',', got 'ident'
+[00:52:57.489] Server  LOG     ✓ Compiled in 471ms
+[00:52:57.746] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:53:02.766] Server  LOG     ✓ Compiled in 93ms
+[00:53:07.513] Server  LOG     ✓ Compiled in 10ms
+[00:53:14.501] Server  LOG     ✓ Compiled in 200ms
+[00:53:15.261] Browser LOG     Refreshing page data due to server-side change
+[00:53:20.286] Browser LOG     Refreshing page data due to server-side change
+[00:53:25.574] Server  LOG     ✓ Compiled in 64ms
+[00:53:26.300] Browser LOG     Refreshing page data due to server-side change
+[00:53:27.515] Server  LOG     ✓ Compiled in 14ms
+[00:53:28.371] Browser LOG     Refreshing page data due to server-side change
+[00:53:33.264] Browser LOG     Refreshing page data due to server-side change
+[00:53:35.724] Server  LOG     ✓ Compiled in 83ms
+[00:53:35.724] Browser LOG     Refreshing page data due to server-side change
+[00:53:39.367] Server  LOG     ✓ Compiled in 114ms
+[00:53:39.368] Browser LOG     Refreshing page data due to server-side change
+[00:53:42.906] Browser LOG     Refreshing page data due to server-side change
+[00:53:43.099] Server  LOG     ✓ Compiled in 109ms
+[00:53:45.054] Server  LOG     ✓ Compiled in 167ms
+[00:53:46.148] Server  ERROR   ⨯ Error: Error serializing `.meetupData.image` returned from `getStaticProps` in "/[meetupId]".
+Reason: `undefined` cannot be serialized as JSON. Please use `null` or omit this value.
+[00:53:46.525] Server  ERROR   ⨯ Error: Error serializing `.meetupData.image` returned from `getStaticProps` in "/[meetupId]".
+Reason: `undefined` cannot be serialized as JSON. Please use `null` or omit this value.
+[00:53:53.487] Server  LOG     ✓ Compiled in 1589ms
+[00:53:53.754] Server  LOG     ✓ Compiled in 192ms
+[00:54:00.527] Server  LOG     ✓ Compiled in 14ms
+[00:54:01.407] Server  ERROR   ⨯ TypeError: Class constructor ObjectId cannot be invoked without 'new'
+[00:54:01.633] Server  ERROR   ⨯ TypeError: Class constructor ObjectId cannot be invoked without 'new'
+[00:54:01.641] Browser LOG     Refreshing page data due to server-side change
+[00:54:02.682] Server  ERROR   ⨯ TypeError: Class constructor ObjectId cannot be invoked without 'new'
+[00:54:02.834] Server  ERROR   ⨯ TypeError: Class constructor ObjectId cannot be invoked without 'new'
+[00:54:03.750] Browser ERROR   uncaughtError: TypeError: Class constructor ObjectId cannot be invoked without 'new'
+[00:54:11.098] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:59:33.388] Server  LOG     ✓ Compiled in 247ms
+[00:59:46.750] Server  LOG     ✓ Compiled in 338ms
+[00:59:47.834] Server  LOG     ✓ Compiled in 73ms
+[00:59:51.353] Server  LOG     ✓ Compiled in 12ms
+[01:00:13.969] Server  LOG     ✓ Compiled in 236ms
+[01:00:13.984] Browser ERROR   ./pages/index.js:8:7
+Parsing ecmascript source code failed
+   6 |     <>
+   7 |       <Head
+>  8 |       <MeetupList meetups={props.meetups} />;
+     |       ^
+   9 |     </>
+  10 |   );
+  11 | }
+
+Expression expected
+[01:00:19.196] Server  LOG     ✓ Compiled in 722ms
+[01:00:23.550] Server  LOG     ✓ Compiled in 287ms
+[01:00:23.712] Browser ERROR   ./pages/index.js:9:7
+Parsing ecmascript source code failed
+   7 |       <Head>
+   8 |         <
+>  9 |       </Head>
+     |       ^
+  10 |       <MeetupList meetups={props.meetups} />;
+  11 |     </>
+  12 |   );
+
+Expression expected
+[01:00:23.712] Browser ERROR   ./pages/index.js:9:8
+Parsing ecmascript source code failed
+   7 |       <Head>
+   8 |         <
+>  9 |       </Head>
+     |        ^^^^^^
+  10 |       <MeetupList meetups={props.meetups} />;
+  11 |     </>
+  12 |   );
+
+Unterminated regexp literal
+[01:00:27.264] Browser ERROR   ./pages/index.js:9:7
+Parsing ecmascript source code failed
+   7 |       <Head>
+   8 |         <tit
+>  9 |       </Head>
+     |       ^
+  10 |       <MeetupList meetups={props.meetups} />;
+  11 |     </>
+  12 |   );
+
+Expression expected
+[01:00:27.264] Browser ERROR   ./pages/index.js:9:8
+Parsing ecmascript source code failed
+   7 |       <Head>
+   8 |         <tit
+>  9 |       </Head>
+     |        ^^^^^^
+  10 |       <MeetupList meetups={props.meetups} />;
+  11 |     </>
+  12 |   );
+
+Unterminated regexp literal
+[01:00:29.286] Browser ERROR   ./pages/index.js:9:7
+Parsing ecmascript source code failed
+   7 |       <Head>
+   8 |         <title
+>  9 |       </Head>
+     |       ^
+  10 |       <MeetupList meetups={props.meetups} />;
+  11 |     </>
+  12 |   );
+
+Expression expected
+[01:00:29.286] Browser ERROR   ./pages/index.js:9:8
+Parsing ecmascript source code failed
+   7 |       <Head>
+   8 |         <title
+>  9 |       </Head>
+     |        ^^^^^^
+  10 |       <MeetupList meetups={props.meetups} />;
+  11 |     </>
+  12 |   );
+
+Unterminated regexp literal
+[01:00:31.252] Browser ERROR   ./pages/index.js:9:7
+Parsing ecmascript source code failed
+   7 |       <Head>
+   8 |         <title 
+>  9 |       </Head>
+     |       ^
+  10 |       <MeetupList meetups={props.meetups} />;
+  11 |     </>
+  12 |   );
+
+Expression expected
+[01:00:31.252] Browser ERROR   ./pages/index.js:9:8
+Parsing ecmascript source code failed
+   7 |       <Head>
+   8 |         <title 
+>  9 |       </Head>
+     |        ^^^^^^
+  10 |       <MeetupList meetups={props.meetups} />;
+  11 |     </>
+  12 |   );
+
+Unterminated regexp literal
+[01:00:39.125] Server  LOG     ✓ Compiled in 46ms
+[01:00:42.109] Server  LOG     ✓ Compiled in 126ms
+[01:01:02.432] Server  ERROR   ReferenceError: Head is not defined
+[01:01:02.444] Server  ERROR   ⨯ ReferenceError: Head is not defined
+[01:01:02.476] Server  ERROR   ⨯ ReferenceError: Head is not defined
+[01:01:03.198] Server  ERROR   ReferenceError: Head is not defined
+[01:01:03.214] Server  ERROR   ⨯ ReferenceError: Head is not defined
+[01:01:03.230] Server  ERROR   ⨯ ReferenceError: Head is not defined
+[01:01:04.624] Browser ERROR   uncaughtError: ReferenceError: Head is not defined
+[01:01:14.514] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:01:14.567] Server  LOG     ✓ Compiled in 8ms
+[01:01:15.514] Server  ERROR   ReferenceError: Hea is not defined
+[01:01:15.568] Server  ERROR   ⨯ ReferenceError: Hea is not defined
+[01:01:15.613] Server  ERROR   ⨯ ReferenceError: Hea is not defined
+[01:01:16.047] Server  LOG     ✓ Compiled in 170ms
+[01:01:16.505] Browser ERROR   uncaughtError: ReferenceError: Hea is not defined
+[01:01:19.890] Server  LOG     ✓ Compiled in 265ms
+[01:02:12.003] Server  LOG     ✓ Compiled in 33ms
+[01:02:12.285] Browser LOG     Refreshing page data due to server-side change
+[01:02:12.285] Browser ERROR   ./pages/index.js:11:7
+Parsing ecmascript source code failed
+   9 |         <title>React Meetups</title>
+  10 |         <meta 
+> 11 |       </Head>
+     |       ^
+  12 |       <MeetupList meetups={props.meetups} />;
+  13 |     </>
+  14 |   );
+
+Expression expected
+[01:02:12.285] Browser ERROR   ./pages/index.js:11:8
+Parsing ecmascript source code failed
+   9 |         <title>React Meetups</title>
+  10 |         <meta 
+> 11 |       </Head>
+     |        ^^^^^^
+  12 |       <MeetupList meetups={props.meetups} />;
+  13 |     </>
+  14 |   );
+
+Unterminated regexp literal
+[01:02:12.374] Browser ERROR   ./pages/index.js:11:7
+Parsing ecmascript source code failed
+   9 |         <title>React Meetups</title>
+  10 |         <meta 
+> 11 |       </Head>
+     |       ^
+  12 |       <MeetupList meetups={props.meetups} />;
+  13 |     </>
+  14 |   );
+
+Expression expected
+[01:02:12.374] Browser ERROR   ./pages/index.js:11:8
+Parsing ecmascript source code failed
+   9 |         <title>React Meetups</title>
+  10 |         <meta 
+> 11 |       </Head>
+     |        ^^^^^^
+  12 |       <MeetupList meetups={props.meetups} />;
+  13 |     </>
+  14 |   );
+
+Unterminated regexp literal
+[01:02:12.374] Browser ERROR   ./pages/index.js:11:7
+Parsing ecmascript source code failed
+   9 |         <title>React Meetups</title>
+  10 |         <meta 
+> 11 |       </Head>
+     |       ^
+  12 |       <MeetupList meetups={props.meetups} />;
+  13 |     </>
+  14 |   );
+
+Expression expected
+[01:02:12.374] Browser ERROR   ./pages/index.js:11:8
+Parsing ecmascript source code failed
+   9 |         <title>React Meetups</title>
+  10 |         <meta 
+> 11 |       </Head>
+     |        ^^^^^^
+  12 |       <MeetupList meetups={props.meetups} />;
+  13 |     </>
+  14 |   );
+
+Unterminated regexp literal
+[01:02:13.664] Browser ERROR   ./pages/index.js:11:7
+Parsing ecmascript source code failed
+   9 |         <title>React Meetups</title>
+  10 |         <meta 
+> 11 |       </Head>
+     |       ^
+  12 |       <MeetupList meetups={props.meetups} />;
+  13 |     </>
+  14 |   );
+
+Expression expected
+[01:02:13.664] Browser ERROR   ./pages/index.js:11:8
+Parsing ecmascript source code failed
+   9 |         <title>React Meetups</title>
+  10 |         <meta 
+> 11 |       </Head>
+     |        ^^^^^^
+  12 |       <MeetupList meetups={props.meetups} />;
+  13 |     </>
+  14 |   );
+
+Unterminated regexp literal
+[01:02:16.393] Browser ERROR   uncaughtError: Error: ./pages/index.js:11:7
+Parsing ecmascript source code failed
+   9 |         <title>React Meetups</title>
+  10 |         <meta 
+> 11 |       </Head>
+     |       ^
+  12 |       <MeetupList meetups={props.meetups} />;
+  13 |     </>
+  14 |   );
+
+Expression expected
+
+
+[01:02:16.843] Browser ERROR   ./pages/index.js:11:7
+Parsing ecmascript source code failed
+   9 |         <title>React Meetups</title>
+  10 |         <meta 
+> 11 |       </Head>
+     |       ^
+  12 |       <MeetupList meetups={props.meetups} />;
+  13 |     </>
+  14 |   );
+
+Expression expected
+[01:02:16.843] Browser ERROR   ./pages/index.js:11:8
+Parsing ecmascript source code failed
+   9 |         <title>React Meetups</title>
+  10 |         <meta 
+> 11 |       </Head>
+     |        ^^^^^^
+  12 |       <MeetupList meetups={props.meetups} />;
+  13 |     </>
+  14 |   );
+
+Unterminated regexp literal
+[01:02:17.089] Browser ERROR   ./pages/index.js:11:7
+Parsing ecmascript source code failed
+   9 |         <title>React Meetups</title>
+  10 |         <meta 
+> 11 |       </Head>
+     |       ^
+  12 |       <MeetupList meetups={props.meetups} />;
+  13 |     </>
+  14 |   );
+
+Expression expected
+[01:02:17.089] Browser ERROR   ./pages/index.js:11:8
+Parsing ecmascript source code failed
+   9 |         <title>React Meetups</title>
+  10 |         <meta 
+> 11 |       </Head>
+     |        ^^^^^^
+  12 |       <MeetupList meetups={props.meetups} />;
+  13 |     </>
+  14 |   );
+
+Unterminated regexp literal
+[01:02:19.665] Browser ERROR   ./pages/index.js:11:7
+Parsing ecmascript source code failed
+   9 |         <title>React Meetups</title>
+  10 |         <meta 
+> 11 |       </Head>
+     |       ^
+  12 |       <MeetupList meetups={props.meetups} />;
+  13 |     </>
+  14 |   );
+
+Expression expected
+[01:02:19.665] Browser ERROR   ./pages/index.js:11:8
+Parsing ecmascript source code failed
+   9 |         <title>React Meetups</title>
+  10 |         <meta 
+> 11 |       </Head>
+     |        ^^^^^^
+  12 |       <MeetupList meetups={props.meetups} />;
+  13 |     </>
+  14 |   );
+
+Unterminated regexp literal
+[01:02:21.398] Browser ERROR   ./pages/index.js:11:7
+Parsing ecmascript source code failed
+   9 |         <title>React Meetups</title>
+  10 |         <meta 
+> 11 |       </Head>
+     |       ^
+  12 |       <MeetupList meetups={props.meetups} />;
+  13 |     </>
+  14 |   );
+
+Expression expected
+[01:02:21.398] Browser ERROR   ./pages/index.js:11:8
+Parsing ecmascript source code failed
+   9 |         <title>React Meetups</title>
+  10 |         <meta 
+> 11 |       </Head>
+     |        ^^^^^^
+  12 |       <MeetupList meetups={props.meetups} />;
+  13 |     </>
+  14 |   );
+
+Unterminated regexp literal
+[01:02:24.624] Browser ERROR   ./pages/index.js:11:7
+Parsing ecmascript source code failed
+   9 |         <title>React Meetups</title>
+  10 |         <meta 
+> 11 |       </Head>
+     |       ^
+  12 |       <MeetupList meetups={props.meetups} />;
+  13 |     </>
+  14 |   );
+
+Expression expected
+[01:02:24.624] Browser ERROR   ./pages/index.js:11:8
+Parsing ecmascript source code failed
+   9 |         <title>React Meetups</title>
+  10 |         <meta 
+> 11 |       </Head>
+     |        ^^^^^^
+  12 |       <MeetupList meetups={props.meetups} />;
+  13 |     </>
+  14 |   );
+
+Unterminated regexp literal
+[01:02:29.516] Browser ERROR   ./pages/index.js:11:7
+Parsing ecmascript source code failed
+   9 |         <title>React Meetups</title>
+  10 |         <meta 
+> 11 |       </Head>
+     |       ^
+  12 |       <MeetupList meetups={props.meetups} />;
+  13 |     </>
+  14 |   );
+
+Expression expected
+[01:02:29.516] Browser ERROR   ./pages/index.js:11:8
+Parsing ecmascript source code failed
+   9 |         <title>React Meetups</title>
+  10 |         <meta 
+> 11 |       </Head>
+     |        ^^^^^^
+  12 |       <MeetupList meetups={props.meetups} />;
+  13 |     </>
+  14 |   );
+
+Unterminated regexp literal
+[01:02:30.678] Browser ERROR   ./pages/index.js:11:7
+Parsing ecmascript source code failed
+   9 |         <title>React Meetups</title>
+  10 |         <meta 
+> 11 |       </Head>
+     |       ^
+  12 |       <MeetupList meetups={props.meetups} />;
+  13 |     </>
+  14 |   );
+
+Expression expected
+[01:02:30.678] Browser ERROR   ./pages/index.js:11:8
+Parsing ecmascript source code failed
+   9 |         <title>React Meetups</title>
+  10 |         <meta 
+> 11 |       </Head>
+     |        ^^^^^^
+  12 |       <MeetupList meetups={props.meetups} />;
+  13 |     </>
+  14 |   );
+
+Unterminated regexp literal
+[01:02:34.745] Browser ERROR   ./pages/index.js:11:7
+Parsing ecmascript source code failed
+   9 |         <title>React Meetups</title>
+  10 |         <meta 
+> 11 |       </Head>
+     |       ^
+  12 |       <MeetupList meetups={props.meetups} />;
+  13 |     </>
+  14 |   );
+
+Expression expected
+[01:02:34.745] Browser ERROR   ./pages/index.js:11:8
+Parsing ecmascript source code failed
+   9 |         <title>React Meetups</title>
+  10 |         <meta 
+> 11 |       </Head>
+     |        ^^^^^^
+  12 |       <MeetupList meetups={props.meetups} />;
+  13 |     </>
+  14 |   );
+
+Unterminated regexp literal
+[01:02:43.949] Browser ERROR   ./pages/index.js:11:7
+Parsing ecmascript source code failed
+   9 |         <title>React Meetups</title>
+  10 |         <meta 
+> 11 |       </Head>
+     |       ^
+  12 |       <MeetupList meetups={props.meetups} />;
+  13 |     </>
+  14 |   );
+
+Expression expected
+[01:02:43.949] Browser ERROR   ./pages/index.js:11:8
+Parsing ecmascript source code failed
+   9 |         <title>React Meetups</title>
+  10 |         <meta 
+> 11 |       </Head>
+     |        ^^^^^^
+  12 |       <MeetupList meetups={props.meetups} />;
+  13 |     </>
+  14 |   );
+
+Unterminated regexp literal
+[01:02:47.803] Browser ERROR   ./pages/index.js:11:7
+Parsing ecmascript source code failed
+   9 |         <title>React Meetups</title>
+  10 |         <meta 
+> 11 |       </Head>
+     |       ^
+  12 |       <MeetupList meetups={props.meetups} />;
+  13 |     </>
+  14 |   );
+
+Expression expected
+[01:02:47.804] Browser ERROR   ./pages/index.js:11:8
+Parsing ecmascript source code failed
+   9 |         <title>React Meetups</title>
+  10 |         <meta 
+> 11 |       </Head>
+     |        ^^^^^^
+  12 |       <MeetupList meetups={props.meetups} />;
+  13 |     </>
+  14 |   );
+
+Unterminated regexp literal
+[01:02:51.023] Browser ERROR   ./pages/index.js:11:7
+Parsing ecmascript source code failed
+   9 |         <title>React Meetups</title>
+  10 |         <meta 
+> 11 |       </Head>
+     |       ^
+  12 |       <MeetupList meetups={props.meetups} />;
+  13 |     </>
+  14 |   );
+
+Expression expected
+[01:02:51.023] Browser ERROR   ./pages/index.js:11:8
+Parsing ecmascript source code failed
+   9 |         <title>React Meetups</title>
+  10 |         <meta 
+> 11 |       </Head>
+     |        ^^^^^^
+  12 |       <MeetupList meetups={props.meetups} />;
+  13 |     </>
+  14 |   );
+
+Unterminated regexp literal
+[01:02:56.648] Browser ERROR   ./pages/index.js:11:7
+Parsing ecmascript source code failed
+   9 |         <title>React Meetups</title>
+  10 |         <meta 
+> 11 |       </Head>
+     |       ^
+  12 |       <MeetupList meetups={props.meetups} />;
+  13 |     </>
+  14 |   );
+
+Expression expected
+[01:02:56.648] Browser ERROR   ./pages/index.js:11:8
+Parsing ecmascript source code failed
+   9 |         <title>React Meetups</title>
+  10 |         <meta 
+> 11 |       </Head>
+     |        ^^^^^^
+  12 |       <MeetupList meetups={props.meetups} />;
+  13 |     </>
+  14 |   );
+
+Unterminated regexp literal
+[01:02:59.059] Browser ERROR   ./pages/index.js:11:7
+Parsing ecmascript source code failed
+   9 |         <title>React Meetups</title>
+  10 |         <meta 
+> 11 |       </Head>
+     |       ^
+  12 |       <MeetupList meetups={props.meetups} />;
+  13 |     </>
+  14 |   );
+
+Expression expected
+[01:02:59.059] Browser ERROR   ./pages/index.js:11:8
+Parsing ecmascript source code failed
+   9 |         <title>React Meetups</title>
+  10 |         <meta 
+> 11 |       </Head>
+     |        ^^^^^^
+  12 |       <MeetupList meetups={props.meetups} />;
+  13 |     </>
+  14 |   );
+
+Unterminated regexp literal
+[01:02:59.059] Browser ERROR   ./pages/index.js:11:7
+Parsing ecmascript source code failed
+   9 |         <title>React Meetups</title>
+  10 |         <meta 
+> 11 |       </Head>
+     |       ^
+  12 |       <MeetupList meetups={props.meetups} />;
+  13 |     </>
+  14 |   );
+
+Expression expected
+[01:02:59.059] Browser ERROR   ./pages/index.js:11:8
+Parsing ecmascript source code failed
+   9 |         <title>React Meetups</title>
+  10 |         <meta 
+> 11 |       </Head>
+     |        ^^^^^^
+  12 |       <MeetupList meetups={props.meetups} />;
+  13 |     </>
+  14 |   );
+
+Unterminated regexp literal
+[01:03:07.298] Browser ERROR   ./pages/index.js:11:7
+Parsing ecmascript source code failed
+   9 |         <title>React Meetups</title>
+  10 |         <meta 
+> 11 |       </Head>
+     |       ^
+  12 |       <MeetupList meetups={props.meetups} />;
+  13 |     </>
+  14 |   );
+
+Expression expected
+[01:03:07.298] Browser ERROR   ./pages/index.js:11:8
+Parsing ecmascript source code failed
+   9 |         <title>React Meetups</title>
+  10 |         <meta 
+> 11 |       </Head>
+     |        ^^^^^^
+  12 |       <MeetupList meetups={props.meetups} />;
+  13 |     </>
+  14 |   );
+
+Unterminated regexp literal
+[01:03:18.848] Browser ERROR   ./pages/index.js:11:7
+Parsing ecmascript source code failed
+   9 |         <title>React Meetups</title>
+  10 |         <meta 
+> 11 |       </Head>
+     |       ^
+  12 |       <MeetupList meetups={props.meetups} />;
+  13 |     </>
+  14 |   );
+
+Expression expected
+[01:03:18.848] Browser ERROR   ./pages/index.js:11:8
+Parsing ecmascript source code failed
+   9 |         <title>React Meetups</title>
+  10 |         <meta 
+> 11 |       </Head>
+     |        ^^^^^^
+  12 |       <MeetupList meetups={props.meetups} />;
+  13 |     </>
+  14 |   );
+
+Unterminated regexp literal
+[01:03:20.988] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:03:21.087] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:03:21.268] Server  LOG     ✓ Compiled in 92ms
+[01:03:22.327] Server  LOG     ✓ Compiled in 78ms
+[01:05:41.333] Server  LOG     ✓ Compiled in 45ms
+[01:05:43.066] Server  LOG     ✓ Compiled in 266ms
+[01:06:01.548] Server  LOG     ✓ Compiled in 406ms
+[01:06:10.275] Server  LOG     ✓ Compiled in 408ms
+[01:06:11.807] Server  LOG     ✓ Compiled in 66ms
+[01:06:34.967] Server  LOG     ✓ Compiled in 65ms
+[01:06:36.124] Server  LOG     ✓ Compiled in 8ms
+[01:06:46.143] Server  LOG     ✓ Compiled in 11ms
+[01:06:47.848] Server  LOG     ✓ Compiled in 167ms
+[01:06:59.990] Server  LOG     ✓ Compiled in 47ms
+[01:07:04.684] Server  LOG     ✓ Compiled in 111ms
+[01:07:08.320] Server  LOG     ✓ Compiled in 163ms
+[01:07:13.335] Server  LOG     ✓ Compiled in 17ms
+[01:07:25.165] Server  LOG     ✓ Compiled in 9ms
+[01:07:29.040] Server  LOG     ✓ Compiled in 18ms
+[01:08:54.131] Server  LOG     ✓ Compiled in 15ms
+[01:08:57.673] Server  LOG     ✓ Compiled in 153ms
+[01:08:58.641] Server  LOG     ✓ Compiled in 15ms
+[01:09:02.543] Server  LOG     ✓ Compiled in 43ms
+[01:09:05.275] Server  LOG     ✓ Compiled in 12ms
+[01:09:08.870] Server  LOG     ✓ Compiled in 675ms
+[01:09:10.274] Server  LOG     ✓ Compiled in 67ms
+[01:09:12.681] Server  LOG     ✓ Compiled in 102ms
+[01:09:14.078] Server  LOG     ✓ Compiled in 17ms
+[01:09:28.316] Server  LOG     ✓ Compiled in 7ms
+[01:09:37.130] Server  LOG     ✓ Compiled in 11ms
+[01:09:38.395] Server  LOG     ✓ Compiled in 12ms
+[01:09:39.961] Server  LOG     ✓ Compiled in 7ms
+[01:09:41.576] Server  LOG     ✓ Compiled in 15ms
+[01:09:44.486] Server  LOG     ✓ Compiled in 23ms
+[01:09:52.642] Server  LOG     ✓ Compiled in 52ms
+[01:09:57.557] Server  LOG     ✓ Compiled in 19ms
+[01:10:01.608] Server  LOG     ✓ Compiled in 8ms
+[01:10:03.894] Server  LOG     ✓ Compiled in 36ms

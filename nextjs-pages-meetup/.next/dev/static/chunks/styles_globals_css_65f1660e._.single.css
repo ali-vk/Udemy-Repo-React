@@ -1,0 +1,15 @@
+/* [project]/styles/globals.css [client] (css) */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Open Sans, Lato, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Lato, sans-serif;
+}
+
+/*# sourceMappingURL=styles_globals_css_65f1660e._.single.css.map*/

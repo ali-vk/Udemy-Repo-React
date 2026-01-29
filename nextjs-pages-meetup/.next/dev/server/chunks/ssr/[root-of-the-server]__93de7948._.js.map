@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///E:/Ashraf/udemy/nextjs-pages-meetup/components/meetups/MeetupDetail.js"],"sourcesContent":["function MeetupDetail(props) {\r\n  return (\r\n    <>\r\n      <img src={props.image} alt={props.title} />\r\n      <h1>{props.title}</h1>\r\n      <address>{props.address}</address>\r\n      <p>{props.description}</p>\r\n    </>\r\n  );\r\n}\r\n\r\nexport default MeetupDetail;\r\n"],"names":[],"mappings":";;;;;;AAAA,SAAS,aAAa,KAAK;IACzB,qBACE;;0BACE,qKAAC;gBAAI,KAAK,MAAM,KAAK;gBAAE,KAAK,MAAM,KAAK;;;;;;0BACvC,qKAAC;0BAAI,MAAM,KAAK;;;;;;0BAChB,qKAAC;0BAAS,MAAM,OAAO;;;;;;0BACvB,qKAAC;0BAAG,MAAM,WAAW;;;;;;;;AAG3B;uCAEe"}},
+    {"offset": {"line": 50, "column": 0}, "map": {"version":3,"sources":["file:///E:/Ashraf/udemy/nextjs-pages-meetup/pages/%5BmeetupId%5D/index.js"],"sourcesContent":["import MeetupDetail from \"../../components/meetups/MeetupDetail\";\r\n\r\nfunction MeetupDetails() {\r\n  return (\r\n    <MeetupDetail\r\n      image=\"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaTzyCEtt3CgcrOS8_dAkMNNukrrpsEX0o0w&s\"\r\n      alt=\"first meetup\"\r\n      title=\"A Fisrt Meetup\"\r\n      address=\"Some city, 6453, city\"\r\n      description=\"The meetup description\"\r\n    />\r\n  );\r\n}\r\n\r\nexport default MeetupDetails;\r\n"],"names":[],"mappings":";;;;;AAAA;;;AAEA,SAAS;IACP,qBACE,qKAAC,yIAAY;QACX,OAAM;QACN,KAAI;QACJ,OAAM;QACN,SAAQ;QACR,aAAY;;;;;;AAGlB;uCAEe"}}]
+}

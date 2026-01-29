@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 16, "column": 0}, "map": {"version":3,"sources":["file:///E:/Ashraf/udemy/nextjs-pages-meetup/pages/api/new-meetup.js"],"sourcesContent":["import { MongoClient } from \"mongodb\";\r\n\r\nasync function handler(req, res) {\r\n  if (req.method === \"POST\") {\r\n    const data = req.body;\r\n\r\n    const { title, image, address, description } = data;\r\n\r\n    const client = await MongoClient.connect(\r\n      \"mongodb+srv://mongo_user:MongoDB%405678@cluster0.zd2jezu.mongodb.net/meetups?retryWrites=true&w=majority&appName=Cluster0\",\r\n    );\r\n    const db = client.db();\r\n\r\n    const meetupsCollection = db.collection(\"meetups\");\r\n\r\n    const result = await meetupsCollection.insertOne(data);\r\n\r\n    client.close();\r\n\r\n    res.status(201).json({ message: \"meetup inserted\" });\r\n  }\r\n}\r\n\r\nexport default handler;\r\n"],"names":[],"mappings":";;;;AAAA;;AAEA,eAAe,QAAQ,GAAG,EAAE,GAAG;IAC7B,IAAI,IAAI,MAAM,KAAK,QAAQ;QACzB,MAAM,OAAO,IAAI,IAAI;QAErB,MAAM,EAAE,KAAK,EAAE,KAAK,EAAE,OAAO,EAAE,WAAW,EAAE,GAAG;QAE/C,MAAM,SAAS,MAAM,oKAAW,CAAC,OAAO,CACtC;QAEF,MAAM,KAAK,OAAO,EAAE;QAEpB,MAAM,oBAAoB,GAAG,UAAU,CAAC;QAExC,MAAM,SAAS,MAAM,kBAAkB,SAAS,CAAC;QAEjD,OAAO,KAAK;QAEZ,IAAI,MAAM,CAAC,KAAK,IAAI,CAAC;YAAE,SAAS;QAAkB;IACpD;AACF;uCAEe"}}]
+}

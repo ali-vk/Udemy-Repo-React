@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///E:/Ashraf/udemy/nextjs-pages-router/pages/news.js"],"sourcesContent":["function NewaPage() {\r\n  return <h1>The Home Page</h1>;\r\n}\r\n\r\nexport default NewaPage;\r\n"],"names":[],"mappings":";;;;;;AAAA,SAAS;IACP,qBAAO,qKAAC;kBAAG;;;;;;AACb;uCAEe"}}]
+}

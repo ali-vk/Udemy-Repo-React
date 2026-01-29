@@ -1,0 +1,8 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 2, "column": 0}, "map": {"version":3,"sources":["file:///E:/Ashraf/udemy/nextjs-pages-meetup/styles/globals.css"],"sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Open+Sans:wght@400;700&display=swap');\n\n* {\n  box-sizing: border-box;\n}\n\nbody {\n  font-family: 'Open Sans', 'Lato', sans-serif;\n  margin: 0;\n}\n\nh1,\nh2,\nh3,\nh4,\nh5,\nh6 {\n  font-family: 'Lato', sans-serif;\n}"],"names":[],"mappings":"AAEA;;;;AAIA;;;;;AAKA"}},
+    {"offset": {"line": 16, "column": 0}, "map": {"version":3,"sources":["file:///E:/Ashraf/udemy/nextjs-pages-meetup/components/layout/MainNavigation.module.css"],"sourcesContent":[".header {\n  width: 100%;\n  height: 5rem;\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  background-color: #77002e;\n  padding: 0 10%;\n}\n\n.logo {\n  font-size: 2rem;\n  color: white;\n  font-weight: bold;\n}\n\n.header ul {\n  list-style: none;\n  margin: 0;\n  padding: 0;\n  display: flex;\n  align-items: baseline;\n}\n\n.header li {\n  margin-left: 3rem;\n}\n\n.header a {\n  text-decoration: none;\n  font-size: 1.5rem;\n  color: #fcb8d2;\n}\n\n.header a:hover,\n.header a:active,\n.header a.active {\n  color: white;\n}\n"],"names":[],"mappings":"AAAA;;;;;;;;;;AAUA;;;;;;AAMA;;;;;;;;AAQA;;;;AAIA;;;;;;AAMA"}},
+    {"offset": {"line": 55, "column": 0}, "map": {"version":3,"sources":["file:///E:/Ashraf/udemy/nextjs-pages-meetup/components/layout/Layout.module.css"],"sourcesContent":[".main {\n  margin: 3rem auto;\n  width: 90%;\n  max-width: 40rem;\n}"],"names":[],"mappings":"AAAA"}}]
+}

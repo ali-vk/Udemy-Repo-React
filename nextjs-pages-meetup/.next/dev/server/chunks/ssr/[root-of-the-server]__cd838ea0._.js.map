@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///E:/Ashraf/udemy/nextjs-pages-meetup/pages/%5BmeetupId%5D/index.js"],"sourcesContent":["function MeetupDetails() {\r\n  return (\r\n    <>\r\n      <img\r\n        src=\"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaTzyCEtt3CgcrOS8_dAkMNNukrrpsEX0o0w&s\"\r\n        alt=\"first meetup\"\r\n      />\r\n      <h1>A Fisrt Meetup</h1>\r\n      <address>Some city, 6453, city</address>\r\n      <p>The meetup description</p>\r\n    </>\r\n  );\r\n}\r\n\r\nexport default MeetupDetails;\r\n"],"names":[],"mappings":";;;;;;AAAA,SAAS;IACP,qBACE;;0BACE,qKAAC;gBACC,KAAI;gBACJ,KAAI;;;;;;0BAEN,qKAAC;0BAAG;;;;;;0BACJ,qKAAC;0BAAQ;;;;;;0BACT,qKAAC;0BAAE;;;;;;;;AAGT;uCAEe"}}]
+}
