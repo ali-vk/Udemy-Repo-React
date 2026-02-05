@@ -15,7 +15,7 @@ export default function ExpenseForm({onSave}) {
   }
   function onAmountChange(event) {
     setEnteredData((prev) => {
-      return { ...prev, amount: event.target.value };
+      return { ...prev, amount: +event.target.value };
     });
   }
   function onDateChange(event) {
